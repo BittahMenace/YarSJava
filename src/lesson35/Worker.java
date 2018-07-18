@@ -29,6 +29,6 @@ public class Worker {
     }
 
     public void setSalary(int salary) {
-        this.salary = salary;
+        this.salary = (int) (salary + salary*0.25);
     }
 }
